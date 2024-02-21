@@ -235,6 +235,12 @@
     <finalName>jpetstore</finalName>
     <pluginManagement>
       <plugins>    
+         <plugin>
+            <groupId>biz.aQute.bnd</groupId>
+            <artifactId>7.0</artifactId>
+            <version>different_version_here</version>
+            <!-- ... -->
+        </plugin>
 
          <plugin>
             <groupId>org.apache.maven.plugins</groupId>
