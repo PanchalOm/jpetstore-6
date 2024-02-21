@@ -234,23 +234,7 @@
   <build>
     <finalName>jpetstore</finalName>
     <pluginManagement>
-      <plugins>
-
-        <plugin>
-            <groupId>biz.aQute.bnd</groupId>
-            <artifactId>bnd-maven-plugin</artifactId>
-            <version>6.4.0</version>
-            <executions>
-                <execution>
-                    <goals>
-                        <goal>bnd-process</goal>
-                    </goals>
-                </execution>
-            </executions>
-            <configuration>
-                <!-- Add any necessary configuration here -->
-            </configuration>
-        </plugin>     
+      <plugins>    
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-war-plugin</artifactId>
